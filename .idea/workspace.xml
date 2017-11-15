@@ -2,60 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed95dd22-6c43-4f68-9345-fdda3936faa2" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/left.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Admin/Controller/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Admin/Model/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Data/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_11_14.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Temp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/661a190cc972bc161586618659d9b262.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/17_11_15.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/calendar.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/chartjs.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/chartjs2.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/chartjs2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/contacts.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/e_commerce.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/e_commerce.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/echarts.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/echarts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/fixed_footer.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/fixed_footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/fixed_sidebar.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/fixed_sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/form.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/form_advanced.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/form_advanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/form_buttons.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/form_buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/form_upload.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/form_upload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/form_validation.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/form_validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/form_wizards.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/form_wizards.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/general_elements.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/general_elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/glyphicons.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/glyphicons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/icons.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/inbox.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/inbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index2.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index3.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/invoice.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/level2.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/level2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/login.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/map.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/media_gallery.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/media_gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/morisjs.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/morisjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/other_charts.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/other_charts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/page_403.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/page_403.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/page_404.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/page_404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/page_500.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/page_500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/plain_page.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/plain_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/pricing_tables.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/pricing_tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/profile.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/project_detail.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/project_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/projects.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/tables.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/tables_dynamic.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/tables_dynamic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/typography.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/widgets.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/widgets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/admin_add.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/admin_add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/admin_list.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/admin_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/admin/vendors/validator/validator.js" afterPath="$PROJECT_DIR$/Public/admin/vendors/validator/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/模板文件/cttp_1_gentelella/vendors/validator/validator.js" afterPath="$PROJECT_DIR$/模板文件/cttp_1_gentelella/vendors/validator/validator.js" />
     </list>
     <ignored path="thinkphp3.2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/admin_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52669036">
-              <caret line="201" column="55" selection-start-line="201" selection-start-column="55" selection-end-line="201" selection-end-column="55" />
+            <state vertical-scroll-proportion="-6.774194">
+              <caret line="192" column="20" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_add.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/admin_add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5635939">
+              <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -178,6 +141,9 @@
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/admin_list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/admin_add.html" />
+        <option value="$PROJECT_DIR$/Public/admin/vendors/validator/validator.js" />
+        <option value="$PROJECT_DIR$/模板文件/cttp_1_gentelella/vendors/validator/validator.js" />
       </list>
     </option>
   </component>
@@ -188,10 +154,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1615" />
-    <option name="y" value="137" />
-    <option name="width" value="1942" />
-    <option name="height" value="1042" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -274,28 +240,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkphp3.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -342,10 +286,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1615" y="137" width="1942" height="1042" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23883697" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -353,7 +297,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -373,16 +317,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -763,8 +697,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/admin_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52669036">
-          <caret line="201" column="55" selection-start-line="201" selection-start-column="55" selection-end-line="201" selection-end-column="55" />
+        <state vertical-scroll-proportion="-6.774194">
+          <caret line="192" column="20" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板文件/cttp_1_gentelella/vendors/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47930282">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/admin/vendors/validator/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.291939">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/admin_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5635939">
+          <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
           <folding />
         </state>
       </provider>

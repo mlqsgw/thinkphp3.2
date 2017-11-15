@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -10,14 +10,14 @@
     <title>Gentelella Alela! | </title>
 
     <!-- Bootstrap -->
-    <link href="__ROOT__/Public/admin/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/thinkphp3.2/Public/admin/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="__ROOT__/Public/admin/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/thinkphp3.2/Public/admin/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="__ROOT__/Public/admin/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link href="/thinkphp3.2/Public/admin/vendors/nprogress/nprogress.css" rel="stylesheet">
     
     <!-- Custom Theme Style -->
-    <link href="__ROOT__/Public/admin/build/css/custom.min.css" rel="stylesheet">
+    <link href="/thinkphp3.2/Public/admin/build/css/custom.min.css" rel="stylesheet">
   </head>
 
   <body class="nav-md">
@@ -34,7 +34,7 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="__ROOT__/Public/admin/images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="/thinkphp3.2/Public/admin/images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
@@ -46,7 +46,112 @@
             <br />
 
             <!-- sidebar menu -->
-            <include file="left" />
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+    <div class="menu_section">
+        <h3>General</h3>
+        <ul class="nav side-menu">
+            <li><a><i class="fa fa-home"></i> 管理员管理 <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="<?php echo U('Index/admin_list');?>">管理员列表</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="index2.html">Dashboard2</a></li>
+                    <li><a href="index3.html">Dashboard3</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="form.html">General Form</a></li>
+                    <li><a href="form_advanced.html">Advanced Components</a></li>
+                    <li><a href="form_validation.html">Form Validation</a></li>
+                    <li><a href="form_wizards.html">Form Wizard</a></li>
+                    <li><a href="form_upload.html">Form Upload</a></li>
+                    <li><a href="form_buttons.html">Form Buttons</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="general_elements.html">General Elements</a></li>
+                    <li><a href="media_gallery.html">Media Gallery</a></li>
+                    <li><a href="typography.html">Typography</a></li>
+                    <li><a href="icons.html">Icons</a></li>
+                    <li><a href="glyphicons.html">Glyphicons</a></li>
+                    <li><a href="widgets.html">Widgets</a></li>
+                    <li><a href="invoice.html">Invoice</a></li>
+                    <li><a href="inbox.html">Inbox</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="chartjs.html">Chart JS</a></li>
+                    <li><a href="chartjs2.html">Chart JS2</a></li>
+                    <li><a href="morisjs.html">Moris JS</a></li>
+                    <li><a href="echarts.html">ECharts</a></li>
+                    <li><a href="other_charts.html">Other Charts</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                    <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="menu_section">
+        <h3>Live On</h3>
+        <ul class="nav side-menu">
+            <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="e_commerce.html">E-commerce</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="project_detail.html">Project Detail</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="page_403.html">403 Error</a></li>
+                    <li><a href="page_404.html">404 Error</a></li>
+                    <li><a href="page_500.html">500 Error</a></li>
+                    <li><a href="plain_page.html">Plain Page</a></li>
+                    <li><a href="login.html">Login Page</a></li>
+                    <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                </ul>
+            </li>
+            <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                <ul class="nav child_menu">
+                    <li><a href="#level1_1">Level One</a>
+                    <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">Level Two</a>
+                            </li>
+                            <li><a href="#level2_1">Level Two</a>
+                            </li>
+                            <li><a href="#level2_2">Level Two</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#level1_2">Level One</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
+        </ul>
+    </div>
+
+</div>
             <!-- /sidebar menu -->
 
             <!-- /menu footer buttons -->
@@ -79,7 +184,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="__ROOT__/Public/admin/images/img.jpg" alt="">John Doe
+                    <img src="/thinkphp3.2/Public/admin/images/img.jpg" alt="">John Doe
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -103,7 +208,7 @@
                   <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                     <li>
                       <a>
-                        <span class="image"><img src="__ROOT__/Public/admin/images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="/thinkphp3.2/Public/admin/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -115,7 +220,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="__ROOT__/Public/admin/images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="/thinkphp3.2/Public/admin/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -127,7 +232,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="__ROOT__/Public/admin/images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="/thinkphp3.2/Public/admin/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -139,7 +244,7 @@
                     </li>
                     <li>
                       <a>
-                        <span class="image"><img src="__ROOT__/Public/admin/images/img.jpg" alt="Profile Image" /></span>
+                        <span class="image"><img src="/thinkphp3.2/Public/admin/images/img.jpg" alt="Profile Image" /></span>
                         <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -261,18 +366,18 @@
     </div>
 
     <!-- jQuery -->
-    <script src="__ROOT__/Public/admin/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/thinkphp3.2/Public/admin/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="__ROOT__/Public/admin/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/thinkphp3.2/Public/admin/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="__ROOT__/Public/admin/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="/thinkphp3.2/Public/admin/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="__ROOT__/Public/admin/vendors/nprogress/nprogress.js"></script>
+    <script src="/thinkphp3.2/Public/admin/vendors/nprogress/nprogress.js"></script>
     <!-- validator -->
-    <script src="__ROOT__/Public/admin/vendors/validator/validator.js"></script>
+    <script src="/thinkphp3.2/Public/admin/vendors/validator/validator.js"></script>
 
     <!-- Custom Theme Scripts -->
-    <script src="__ROOT__/Public/admin/build/js/custom.min.js"></script>
+    <script src="/thinkphp3.2/Public/admin/build/js/custom.min.js"></script>
 	
   </body>
 </html>
